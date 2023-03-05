@@ -48,6 +48,7 @@ public class CertificateController {
 		Map<String, Boolean> response = new HashMap<>();
 		response.put("deleted", Boolean.TRUE);
 		return ResponseEntity.ok(response);
+		System.out.Println("Hello, Good Bye!");
 	}
 	
 }
